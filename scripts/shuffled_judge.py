@@ -1,13 +1,3 @@
-"""
-HypoKG — Shuffled Path Control: Judge + Analysis
-Judges all shuffled hypotheses with GPT-4o (primary) and Gemini (secondary),
-then compares scores against original paths to confirm genuine path utilization.
-
-Usage:
-  python shuffled_judge.py --step judge
-  python shuffled_judge.py --step analyze
-"""
-
 import json, os, time, re, argparse
 from datetime import datetime, timezone
 from collections import defaultdict
