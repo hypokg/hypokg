@@ -1,9 +1,4 @@
-"""
-HypoKG — Hypothesis Generation
-Generates C1/C2/C3 hypotheses for all 550 paths across API models.
-For HuggingFace models (BioMistral, MedGemma) see generate_hf.py
-For C4 (endpoint-only) set CONDITION=4 or use --condition 4
-"""
+"""HypoKG — hypothesis generation (API models: GPT-4o, Claude, Llama, Qwen)"""
 
 import json, os, time, argparse
 from datetime import datetime, timezone
