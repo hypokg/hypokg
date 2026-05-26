@@ -1,21 +1,3 @@
-"""
-HypoKG — Analysis
-Reproduces all tables reported in the paper from judge output files.
-
-Tables produced:
-  Table 3  — main results: mean rubric scores by model × condition
-  Table 4  — mean total score by crossing count × condition
-  Table 5  — human expert validation summary (loaded from file)
-  Table 6  — shuffled path control: original vs shuffled scores
-  Table 7  — per-model evidence proportionality drop under shuffling
-  Table 8  — secondary judge (Gemini) agreement with primary
-  Table 9  — KG consistency metrics by condition
-
-Usage:
-  python analysis.py
-  python analysis.py --save   # writes CSVs to analysis/
-"""
-
 import json, os, argparse
 import numpy as np
 from scipy import stats
