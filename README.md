@@ -183,6 +183,6 @@ This reproduces Tables 3, 4, 6, 7, 8, and 9 from the paper. Table 5 (human exper
 | `llama_70b` | Llama-3.3-70B | Together AI |
 | `qwen3_235b` | Qwen3-235B | Together AI |
 | `biomistral_7b` | BioMistral-7B | HuggingFace |
-| `medgemma_27b` | MedGemma-27B | HuggingFace (gated) |
+| `medgemma_27b` | MedGemma-27B | HuggingFace |
 
 
