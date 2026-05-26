@@ -1,14 +1,3 @@
-"""
-HypoKG — Shuffled Path Control: Generation
-Permutes intermediate nodes in all 550 paths while holding source and
-terminal endpoints fixed, then regenerates C2 and C3 hypotheses.
-
-Step 1 (run once): python shuffled_generate.py --step shuffle
-Step 2 (API models): python shuffled_generate.py --step generate --model gpt4o
-Step 2 (HF models):  python shuffled_generate.py --step generate --model biomistral_7b
-                     python shuffled_generate.py --step generate --model medgemma_27b
-"""
-
 import os, json, random, time, gc, argparse
 os.environ["PYTORCH_ALLOC_CONF"] = "expandable_segments:True"
 
