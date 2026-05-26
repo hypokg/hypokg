@@ -1,18 +1,3 @@
-"""
-HypoKG — LLM-as-Judge Scoring
-Cross-judging scheme: no model scores its own outputs.
-  GPT-4o   → primary for all models except GPT-4o
-  Qwen3    → primary for GPT-4o outputs
-  Gemini   → secondary for all models
-
-Outputs one record per hypothesis per judge to:
-  judge/judge_full_gpt4o.jsonl
-  judge/judge_full_gemini.jsonl
-  judge/judge_full_qwen3.jsonl
-
-Checkpointed — safe to restart at any point.
-"""
-
 import json, os, time, re
 from datetime import datetime, timezone
 import openai
