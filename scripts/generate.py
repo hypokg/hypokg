@@ -1,5 +1,3 @@
-"""HypoKG — hypothesis generation (API models: GPT-4o, Claude, Llama, Qwen)"""
-
 import json, os, time, argparse
 from datetime import datetime, timezone
 import openai
