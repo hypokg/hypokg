@@ -1,9 +1,4 @@
-"""
-HypoKG — HuggingFace Model Generation
-BioMistral-7B and MedGemma-27B
-Requires A100 GPU (80GB) for MedGemma. BioMistral runs on T4.
-Run one model at a time — GPU memory does not allow both simultaneously.
-"""
+"""HypoKG — hypothesis generation (HuggingFace: BioMistral-7B, MedGemma-27B; requires A100)"""
 
 import os
 os.environ["PYTORCH_ALLOC_CONF"] = "expandable_segments:True"
