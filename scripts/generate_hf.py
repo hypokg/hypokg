@@ -1,5 +1,3 @@
-"""HypoKG — hypothesis generation (HuggingFace: BioMistral-7B, MedGemma-27B; requires A100)"""
-
 import os
 os.environ["PYTORCH_ALLOC_CONF"] = "expandable_segments:True"
 
