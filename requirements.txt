@@ -1,0 +1,12 @@
+openai>=1.0.0
+anthropic>=0.20.0
+google-genai>=0.3.0
+together>=0.2.0
+transformers>=4.40.0
+accelerate>=0.27.0
+bitsandbytes>=0.43.0
+sentencepiece>=0.1.99
+huggingface_hub>=0.22.0
+torch>=2.2.0
+scipy>=1.12.0
+numpy>=1.26.0
